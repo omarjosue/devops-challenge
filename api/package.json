@@ -1,0 +1,14 @@
+{
+  "name": "devops-challenge",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "https://github.com/eva-tech/devops-challenge",
+  "author": "EVA",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1"
+  }
+}
