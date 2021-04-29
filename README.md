@@ -2,13 +2,14 @@
 
 ## **Project Structure**
 
-- api                      > source code
-- app                      > static resources
-- runtime-evidence         > proof of the local runtime execution
-- terraform                > terraform recipes for aws provider (IaaC)
-- terraform/modules        > aws resources for each module defined into the main recipe
-- terraform/templates/ecs/ > configuration files for ECS task definition
-- Dockerfile               > building artifact for Dockerizing the application
+- api                       > source code
+- app                       > static resources
+- runtime-evidence          > proof of the local runtime execution
+- terraform                 > terraform recipes for aws provider (IaaC)
+- terraform/modules         > aws resources for each module defined into the main recipe
+- terraform/templates/ecs/  > configuration files for ECS task definition
+- Dockerfile                > building artifact for Dockerizing the application
+- .github/workflows/aws.yml > github action for building, pushing the image to ECR and deploying the service to ECS
 
 ## **Architecture**
 
